@@ -1,0 +1,38 @@
+#board {
+    padding: 3em;
+    text-align: center;
+}
+
+.row > div {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.row > div:hover {
+    cursor: cell;
+    background-color: lightgreen;
+}
+
+.row {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    width: 302px;
+}
+
+.top {
+    border-bottom: black solid 1px;;
+}
+
+.bottom {
+    border-top: black solid 1px;
+}
+
+.left {
+    border-right: black solid 1px;;
+}
+
+.right {
+    border-left: black solid 1px;;
+}
